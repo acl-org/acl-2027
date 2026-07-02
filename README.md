@@ -64,13 +64,13 @@ It will first pull down the jekyll docker image, then install all the dependenci
 If you are going to need to test/build the website frequently, you probably don't want to have to wait for the gems to download and install _every_ time you run the previous command. In that case, it might be better to first build a Docker image from the included [`Dockerfile`](/Dockerfile) using the command:
 
 ```
-docker build -t emnlp/website .
+docker build -t aclconfsite .
 ```
 
-where `emnlp/website` is the docker tag for our image. After that command completes, you can use this newly created image to run the website locally at `http://localhost:4000` using the command:
+where `aclconfsite` is the docker tag for our image. After that command completes, you can use this newly created image to run the website locally at `http://localhost:4000` using the command:
 
 ```
-docker run --rm -p 4000:4000 -v $(pwd):/srv/jekyll emnlp/website
+docker run --rm -p 4000:4000 -v $(pwd):/srv/jekyll aclconfsite
 ```
 
 # Forking for a New Conference
