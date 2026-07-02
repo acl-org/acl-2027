@@ -1,0 +1,72 @@
+# main links
+main:
+  - title: "Program"
+    url: /program/
+
+  - title: "Committees"
+    url: /organization/
+
+program:
+  - title: "Programs"
+    children:
+      - title: "Conference Overview"
+        url: /program/
+      - title: "Workshops"
+        url: /program/workshops/
+      - title: "Tutorials"
+        url: /program/tutorials/
+
+  - title: Events
+    children:
+      - title: "Keynotes"
+        url: /program/keynotes/
+      - title: "Social Event"
+        url: /program/social_event/
+      - title: "Panel"
+        url: /program/panel/
+      - title: "Welcome Reception"
+        url: /program/reception/
+      - title: "Birds-of-a-Feather and Affinity Group"
+        url: /program/bof/
+
+  - title: "Accepted Papers"
+    children:
+      - title: "Main Conference"
+        url: /program/accepted_papers/
+      - title: "Findings"
+        url: /program/findings/
+      - title: "Industry Track"
+        url: /program/industry/
+      - title: "System Demonstrations"
+        url: /program/demo/
+
+  - title: "Awards"
+    children:
+      - title: "Best Papers"
+        url: /program/best_papers/
+      - title: "Outstanding Reviewers"
+        url: /program/outstanding_reviewers/
+      - title: "Outstanding Area Chairs"
+        url: /program/outstanding_acs/
+      - title: "Outstanding Senior Area Chairs"
+        url: /program/outstanding_sacs/
+
+calls:
+  - title: "Calls"
+    children:
+      - title: "Main Papers"
+        url: /calls/main_conference_papers/
+      - title: "Industry Track Papers"
+        url: /calls/industry_track/
+      - title: "Student Research Workshop Papers"
+        url: /calls/student_research_workshop/
+      - title: "System Demonstrations"
+        url: /calls/system_demonstration/
+      - title: "Shared Interest and Affinity Group"
+        url: /calls/bof_affinity_events/
+      - title: "Volunteers"
+        url: /calls/volunteers/
+      - title: "Diversity and Inclusion Subsidies"
+        url: /calls/di_subsidies/
+      - title: "Virtual Subsidies"
+        url: /calls/virtual_subsidies/

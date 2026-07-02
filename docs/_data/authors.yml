@@ -1,0 +1,10 @@
+# Authors
+
+Yusuke Miyao:
+  name        : "Yusuke Miyao"
+  bio         : ""
+  avatar      : "/assets/images/committee/Yusuke_Miyao.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "yusuke@is.s.u-tokyo.ac.jp"

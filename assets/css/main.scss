@@ -1,0 +1,55 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Navigation */
+
+.greedy-nav a.site-title {
+  color: rgba(34, 40, 48, 1.0);
+}
+
+.greedy-nav a {
+  color: rgba(34, 40, 48, 0.7);
+}
+
+.greedy-nav a:hover {
+  color: rgba(34, 40, 48, 1.0);
+}
+
+.greedy-nav .visible-links a:before {
+  height: 2px;
+  background: rgba(237, 30, 36, 0.7);
+}
+
+/* Header */
+
+.page__hero--overlay .page__title, .page__hero--overlay .page__lead {
+  color: rgba(255, 255, 255, .9);
+  text-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+}
+
+.page__hero--overlay .page__title {
+  font-size: 2em;
+}
+
+.page__hero-caption {
+  font-family: inherit;
+}
+
+/* Content Page */
+
+.page__content h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Committee Page */
+
+.author__content p {
+  margin: 0;
+}

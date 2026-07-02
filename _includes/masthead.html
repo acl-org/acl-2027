@@ -1,0 +1,60 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {{ site.masthead_title | default: site.title }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+        <ul class="visible-links">
+          {%- for link in site.data.navigation.main -%}
+            {%- if link.url contains '://' -%}
+              {%- assign url = link.url -%}
+            {%- else -%}
+              {%- assign url = link.url | relative_url -%}
+            {%- endif -%}
+            {%- if link.title contains 'Blog' or link.title contains 'Visa' or link.title contains 'Registration' or link.title contains 'Proceedings' or link.title contains 'Program' or link.title contains 'Committees' or link.title contains 'Venue' or link.title contains 'Volunteers' or link.title contains 'FAQ' or link.title contains 'Calls' or link.title contains 'Ethics' or  link.title contains 'Participants Info' or link.title contains 'Sponsors' or link.title contains 'Contact'-%}
+              <li class="masthead__menu-item">
+                <a
+                  href="{{ url }}"
+                  {% if link.description %} title="{{ link.description }}"{% endif %}
+                  {% if link.target %} target="{{ link.target }}"{% endif %}
+                >{{ link.title }}</a>
+              </li>
+            {%- else -%}
+              <li class="masthead__menu-item">
+                <a
+                  href="{{ url }}"
+                  {% if link.description %} title="{{ link.description }}"{% endif %}
+                  {% if link.target %} target="{{ link.target }}"{% endif %}
+                ><span style="color:#999999;">{{ link.title }}</span></a>
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
