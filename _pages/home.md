@@ -5,12 +5,12 @@ permalink: /
 header:
   overlay_image: "/assets/images/fuji.jpg"
   caption: "Photo by Max Iijima"
-excerpt: "Japan<br>August 17--22, 2027"
+excerpt: "Kyoto, Japan<br>August 17--22, 2027"
 ---
 
 ## Welcome!
 
-The 65th Annual Meeting of the Association for Computational Linguistics (ACL 2027) will take place in **Japan** from **August 17–22, 2027**.
+The 65th Annual Meeting of the Association for Computational Linguistics (ACL 2027) will take place in **Kyoto, Japan** from **August 17–22, 2027**.
 
 ## News
 
