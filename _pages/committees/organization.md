@@ -246,7 +246,7 @@ sidebar:
 
 {% include committee-member.html
    name="Hitomi Yanaka"
-   picture="/assets/images/committee/hitomi_yanaka.png"
+   picture="/assets/images/committee/hitomi_yanaka.jpg"
    site="https://hitomiyanaka.mystrikingly.com/"
    institution="The University of Tokyo"
    email = "hyanaka@is.s.u-tokyo.ac.jp"
