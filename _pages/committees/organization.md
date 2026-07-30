@@ -36,7 +36,7 @@ sidebar:
 
 {% include committee-member.html
    name="Jan Buys"
-   picture="/assets/images/committee/name_surname.jpg"
+   picture="/assets/images/committee/jan_buys.jpg"
    site=null
    institution="University of Cape Town"
    email = "jbuys@cs.uct.ac.za"
@@ -52,7 +52,7 @@ sidebar:
 
 {% include committee-member.html
    name="David Schlangen"
-   picture="/assets/images/committee/name_surname.jpg"
+   picture="/assets/images/committee/david_schlangen.jpg"
    site="https://clp.ling.uni-potsdam.de"
    institution="University of Potsdam"
    email = "david.schlangen@uni-potsdam.de"
@@ -158,8 +158,8 @@ sidebar:
 
 {% include committee-member.html
    name="Fajri Koto"
-   picture="/assets/images/committee/name_surname.jpg"
-   site=null
+   picture="/assets/images/committee/fajri_koto.jpg"
+   site="https://www.fajrikoto.com"
    institution="MBZUAI"
    email = "fajri.koto@mbzuai.ac.ae"
 %}
@@ -354,10 +354,28 @@ sidebar:
 
 {% include committee-member.html
    name="Gemma Boleda"
-   picture="/assets/images/committee/name_surname.jpg"
+   picture="/assets/images/committee/gemma_boleda.jpg"
    site=null
    institution="Universitat Pompeu Fabra"
    email = "gemma.boleda@upf.edu"
+%}
+
+{% include committee-member.html
+   name="Nizar Habash"
+   picture="/assets/images/committee/nizar_habash.jpg"
+   site="https://www.nizarhabash.com/"
+   institution="New York University Abu Dhabi"
+   email = "nizar.habash@nyu.edu"
+%}
+
+<h2>Internal Communication Chairs</h2>
+
+{% include committee-member.html
+   name="Youmi Ma"
+   picture="/assets/images/committee/name_surname.jpg"
+   site=null
+   institution="Institute of Science Tokyo"
+   email = "ma.y@comp.isct.ac.jp"
 %}
 
 <h2>Technical Open Review Chairs</h2>
@@ -368,6 +386,14 @@ sidebar:
    site=null
    institution="University of Washington"
    email = "lucylw@uw.edu"
+%}
+
+{% include committee-member.html
+   name="Yuval Pinter"
+   picture="/assets/images/committee/yuval_pinter.jpg"
+   site="https://www.yuvalpinter.com"
+   institution="Ben-Gurion University"
+   email = "pintery@bgu.ac.il"
 %}
 
 <h2>Conflict Chair</h2>
