@@ -20,7 +20,7 @@ sidebar:
 
 {% include committee-member.html
    name="David Adelani"
-   picture="/assets/images/committee/name_surname.jpg"
+   picture="/assets/images/committee/david_adelani.jpg"
    site=null
    institution="McGill University"
    email = "david.adelani@mila.quebec"
@@ -44,7 +44,7 @@ sidebar:
 
 {% include committee-member.html
    name="Ximena Gutierrez-Vasques"
-   picture="/assets/images/committee/name_surname.jpg"
+   picture="/assets/images/committee/ximena_gutierrez.jpg"
    site=null
    institution="UNAM"
    email = "xim@unam.mx"
