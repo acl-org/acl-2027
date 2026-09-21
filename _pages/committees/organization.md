@@ -178,8 +178,8 @@ sidebar:
 
 {% include committee-member.html
    name="Yi R. (May) Fung"
-   picture="/assets/images/committee/name_surname.jpg"
-   site=null
+   picture="/assets/images/committee/yi_r_may_fung.jpg"
+   site="https://mayrfung.github.io/"
    institution="Hong Kong University of Science and Technology"
    email = "yrfung@ust.hk"
 %}
