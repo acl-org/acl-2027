@@ -16,5 +16,5 @@ A detailed schedule will be released closer to the conference date.
 |                    Date | <img width="220" height="1"> <span class="th-center">Event</span> |
 |------------------------:| -------------------------- |
 |       August 17th, 2027 | **Tutorials** |
-| August 18th--20th, 2027 | **Main conference** |
-| August 21st--22nd, 2027 | **Workshops** |
+| August 18th--19th, 2027 | **Workshops** |
+| August 20th--22nd, 2027 | **Main conference** |
