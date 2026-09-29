@@ -4,7 +4,7 @@ layout: single
 excerpt: "ACL 2027 Conference Program."
 permalink: /program/
 sidebar:
-  nav: ""
+  nav: "program"
 toc: True
 toc_sticky: True
 ---

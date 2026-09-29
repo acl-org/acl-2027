@@ -4,7 +4,7 @@ layout: single
 excerpt: "ACL 2027 Organizing Committee."
 permalink: /organization/
 sidebar:
-  nav: "committees"
+  nav: ""
 ---
 
 <h2>General Chair</h2>

@@ -19,21 +19,24 @@ The 65th Annual Meeting of the Association for Computational Linguistics (ACL 20
 .news-table { font-size: .9em; table-layout: fixed; }
 .news-table tr td:nth-child(1) { font-weight: bold; width: 10em; }
 </style>
+| September 29, 2026 | The first [call for main conference papers](calls/main/) is published.
 | July 3, 2026 | The official ACL 2027 website is launched.
 {: .news-table}
 
 <style>
 .news-table { font-size: .9em; table-layout: fixed; }
-.news-table tr td:nth-child(1) { font-weight: bold; width: 10em; }
+.news-table tr td:nth-child(1) { font-weight: bold; width: 12em; }
 </style>
 
 ## Important Dates
 
-ARR submission deadline | TBA |
-Commitment deadline for ACL 2027 | TBA |
-Notification of acceptance | TBA |
-Camera-ready deadline | TBA |
-Overall conference | TBA |
+ARR submission deadline | January 4, 2027
+Commitment deadline | TBA
+Notification of acceptance | TBA
+Camera-ready deadline | TBA
+Tutorials | August 17, 2027
+Workshops | August 18–19, 2027
+Main Conference | August 20–22, 2027
 
 <style>
 .dates-table { font-size: .9em; }
