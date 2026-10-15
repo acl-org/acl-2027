@@ -128,6 +128,32 @@ sidebar:
    email = "soujanya.poria@ntu.edu.sg"
 %}
 
+<h2>Student Research Workshop Chairs</h2>
+
+{% include committee-member.html
+   name="Emre Can Acikgoz"
+   picture="/assets/images/committee/name_surname.jpg"
+   site=null
+   institution="University of Illinois Urbana-Champaign"
+   email = "acikgoz2@illinois.edu"
+%}
+
+{% include committee-member.html
+   name="Kai Tzu-iunn Ong"
+   picture="/assets/images/committee/name_surname.jpg"
+   site="https://ktio89.github.io/"
+   institution="Yonsei University"
+   email = "ktio89@yonsei.ac.kr"
+%}
+
+{% include committee-member.html
+   name="Vera Neplenbroek"
+   picture="/assets/images/committee/vera_neplenbroek.jpg"
+   site="https://veranep.github.io/"
+   institution="University of Amsterdam"
+   email = "v.e.neplenbroek@uva.nl"
+%}
+
 <h2>Student Research Workshop Faculty Advisors</h2>
 
 {% include committee-member.html
@@ -245,11 +271,37 @@ sidebar:
 %}
 
 {% include committee-member.html
+   name="Dušan Variš"
+   picture="/assets/images/committee/name_surname.jpg"
+   site=null
+   institution="Charles University"
+   email = "varis@ufal.mff.cuni.cz"
+%}
+
+{% include committee-member.html
    name="Hitomi Yanaka"
    picture="/assets/images/committee/hitomi_yanaka.jpg"
    site="https://hitomiyanaka.mystrikingly.com/"
    institution="The University of Tokyo"
    email = "hyanaka@is.s.u-tokyo.ac.jp"
+%}
+
+<h2>Ethics Chairs</h2>
+
+{% include committee-member.html
+   name="Kathleen Fraser"
+   picture="/assets/images/committee/name_surname.jpg"
+   site=null
+   institution="University of Ottawa"
+   email = "kathleen.fraser@uottawa.ca"
+%}
+
+{% include committee-member.html
+   name="Sunayana Sitaram"
+   picture="/assets/images/committee/sunayana_sitaram.jpg"
+   site=null
+   institution="Microsoft Research India"
+   email = "sunayana.sitaram@gmail.com"
 %}
 
 <h2>Website Chairs</h2>
@@ -271,6 +323,14 @@ sidebar:
 %}
 
 <h2>Student Volunteer Chairs</h2>
+
+{% include committee-member.html
+   name="Yohan Jo"
+   picture="/assets/images/committee/yohan_jo.jpg"
+   site="https://yohanjo.github.io"
+   institution="Seoul National University"
+   email = "yohan.jo@snu.ac.kr"
+%}
 
 {% include committee-member.html
    name="Marie Katsurai"
