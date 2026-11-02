@@ -140,7 +140,7 @@ sidebar:
 
 {% include committee-member.html
    name="Kai Tzu-iunn Ong"
-   picture="/assets/images/committee/name_surname.jpg"
+   picture="/assets/images/committee/kai_tzu-iunn_ong.jpg"
    site="https://ktio89.github.io/"
    institution="Yonsei University"
    email = "ktio89@yonsei.ac.kr"
