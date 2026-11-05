@@ -3,7 +3,7 @@ title: "The 65th Annual Meeting of the Association for Computational Linguistics
 layout: splash
 permalink: /
 header:
-  overlay_image: "/assets/images/fuji.jpg"
+  overlay_image: "/assets/images/inari.jpg"
   caption: "Photo by Max Iijima"
 excerpt: "Kyoto, Japan<br>August 17--22, 2027"
 ---
