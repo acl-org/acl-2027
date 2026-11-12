@@ -9,6 +9,9 @@ main:
   - title: "Venue"
     url: /venue/
 
+  - title: "Sponsors"
+    url: /sponsors/
+
   - title: "Committees"
     url: /organization/
 
